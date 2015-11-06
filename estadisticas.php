@@ -42,7 +42,6 @@ session_start();
 	echo "<div id='texto'>El trabajador más remunerado en nuestra empresa es ".$_SESSION['tablita'][$maximoID]['nombre'] ." con una remuneración total de ".$maximo."€.</div> </br>";
 	echo "<div id='texto'>El trabajador menos remunerado en nuestra empresa es ".$_SESSION['tablita'][$minimoID]['nombre'] ." con una remuneración total de ".$minimo."€.</div> </br>";
 	echo "<div id='texto'>Nuestra empresa actualmente dispone de ".(count($_SESSION['tablita']))." trabajador/es con un sueldo medio de ".$media."€.</div> </br>";
-	echo "<br> <p> Paco Soto Cardoso es un paria como mierda que no ve na de lo que digo</p>"
 ?>
 </br>
 <input type="button" name="bajaNOTOK" value="Volver" onClick="window.location.href='index.php'"/>
