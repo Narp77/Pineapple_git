@@ -44,7 +44,7 @@ session_start();
 	echo "<div id='texto'>Nuestra empresa actualmente dispone de ".(count($_SESSION['tablita']))." trabajador/es con un sueldo medio de ".$media."€.</div> </br>";
 ?>
 </br>
-<input type="button" name="bajaNOTOK" value="Volver" onClick="window.location.href='supuesto_array.php'"/>
+<input type="button" name="bajaNOTOK" value="Volver" onClick="window.location.href='index.php'"/>
 </form>
 
 </div>

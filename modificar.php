@@ -55,7 +55,7 @@ echo "</br></br>";
 echo $cadena;
 ?>
 <input type="submit" name="modificarOK" value="Modificar" />
-<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='supuesto_array.php'"/>
+<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='index.php'"/>
 <input id="numerito" type="text" name="numerito"/>
 </form>
 

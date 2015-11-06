@@ -13,7 +13,7 @@ session_start();
 <div id="index">
 <img src="logo.png" />
 <h2>Bajas Pineapple</h2>
-<form name="baja" action="supuesto_array.php" method="post" onSubmit=" return borrar()">
+<form name="baja" action="index.php" method="post" onSubmit=" return borrar()">
 <?php
 if (isset($_SESSION['tablita'])){
 	
@@ -55,7 +55,7 @@ echo "</br></br>";
 echo $cadena;
 ?>
 <input type="submit" name="bajaOK" value="Borrar" />
-<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='supuesto_array.php'"/>
+<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='index.php'"/>
 <input id="numerito" type="text" name="numerito"/>
 </form>
 

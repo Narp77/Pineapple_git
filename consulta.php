@@ -38,7 +38,7 @@ session_start();
 	}
 ?>
 <input type="submit" name="ConsultaOK" value="Enviar" />
-<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='supuesto_array.php'"/>
+<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='index.php'"/>
 </form>
 
 </div>

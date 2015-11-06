@@ -75,7 +75,7 @@ session_start();
 ?>
 </br>
 <input type="submit" name="Ordenar" value="Ordenar"/>
-<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='supuesto_array.php'"/>
+<input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='index.php'"/>
 </form>
 </div>
 </body>

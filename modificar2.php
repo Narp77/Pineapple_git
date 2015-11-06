@@ -13,7 +13,7 @@ session_start();
 <div id="modificar">
 <img src="logo.png" />
 <h2>Modificaciones Pineapple</h2>
-<form name="modificar2" action="supuesto_array.php" method="POST">
+<form name="modificar2" action="index.php" method="POST">
      </br>
      Nombre: <input type="text" name="nombre"  value="<?php echo $_SESSION['tablita'][$_POST['numerito']]['nombre']; ?>" required/>
      </br> </br>
@@ -31,7 +31,7 @@ session_start();
 	  </br> </br>
      
      <input type="submit" name="modificarOK" value="Confirmar"/>
-     <input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='modificar.php'"/>
+     <input type="button" name="bajaNOTOK" value="Cancelar" onClick="window.location.href='index.php'"/>
      <input id="numerito" type="text" name="numerito" value="<?php echo $_POST['numerito']; ?>"/>
 </form>
 </div>
