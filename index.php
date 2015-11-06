@@ -19,7 +19,7 @@
         <input type="button" name="baja" value="Baja" onClick="window.location.href='bajas.php'"/>
         <input type="button" name="modificar" value="Modificar"  onClick="window.location.href='modificar.php'"/>
         <input type="button" name="consulta" value="Consulta" onClick="window.location.href='consulta.php'"/>
-        <input type="button" name="estadistica" value="Estadística" onClick="window.location.href='Estadisticas.php'"/>
+        <input type="button" name="estadistica" value="Estadística" onClick="window.location.href='estadisticas.php'"/>
         <input type="button" name="ordenar" value="Ordenar" onClick="window.location.href='ordenar.php'"/>
         </br> </br>
     <?php
